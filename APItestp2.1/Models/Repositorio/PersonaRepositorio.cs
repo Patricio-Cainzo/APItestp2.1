@@ -26,7 +26,6 @@ namespace APItestp2._1.Models.Repositorio
             _context.Persona.Add(persona);
             _context.SaveChanges();
         }
-
         public void Actualizar(Persona persona)
         {
             _context.Entry(persona).State = EntityState.Modified;
