@@ -88,7 +88,7 @@ namespace APItestp2._1.Controllers
                 return NotFound();
             }
 
-            // Aplicar las actualizaciones desde el GastoDto al gasto existente
+            // Aplicar las actualizaciones desde el PersonaDto al Persona existente
             _mapper.Map(personaDto, exitingPersona);
 
             // Actualizar el gasto en el repositorio
